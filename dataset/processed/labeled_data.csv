@@ -1,0 +1,5 @@
+customer_text,intent
+"where is my order",delivery_issue
+"my payment failed",payment_issue
+"please refund me",refund_request
+"I can't login",account_issue

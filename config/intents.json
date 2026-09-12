@@ -1,0 +1,73 @@
+{
+    "delivery_issue": {
+        "description": "Problems involving delayed, missing, or incorrect deliveries",
+        "examples": [
+            "where is my order",
+            "my package hasn't arrived",
+            "delivery is delayed"
+        ]
+    },
+
+    "payment_issue": {
+        "description": "Problems involving payment, charges, or billing",
+        "examples": [
+            "I was charged twice",
+            "payment failed",
+            "wrong amount charged"
+        ]
+    },
+
+    "refund_request": {
+        "description": "Requests concerning refunds or returning money",
+        "examples": [
+            "I want a refund",
+            "when will I receive my refund",
+            "please refund my order"
+        ]
+    },
+
+    "account_issue": {
+        "description": "Problems involving login, account access, or account settings",
+        "examples": [
+            "I can't login",
+            "my account is locked",
+            "I cannot access my account"
+        ]
+    },
+
+    "technical_issue": {
+        "description": "Technical problems with the product or service",
+        "examples": [
+            "the app isn't working",
+            "website is broken",
+            "service stopped working"
+        ]
+    },
+
+    "cancellation": {
+        "description": "Requests to cancel an order, service, or subscription",
+        "examples": [
+            "cancel my order",
+            "I want to cancel",
+            "please cancel this"
+        ]
+    },
+
+    "complaint": {
+        "description": "Customer dissatisfaction or unresolved complaints",
+        "examples": [
+            "this is unacceptable",
+            "very disappointed",
+            "terrible service"
+        ]
+    },
+
+    "general_question": {
+        "description": "General information requests",
+        "examples": [
+            "how does this work",
+            "what are your hours",
+            "can you help me"
+        ]
+    }
+}
