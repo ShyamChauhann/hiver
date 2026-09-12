@@ -59,4 +59,17 @@ run this from hiver directory
     python3 scripts/01_prepare_data.py
     python3 scripts/02_select_brand.py
     python3 scripts/03_extract_brand.py
+    python3 scripts/04_train_classifier.py
 
+
+we use sentence-transformers/all-MiniLM-L6-v2 
+This is a lightweight embedding model and Sentence Transformers explicitly supports semantic search using embeddings.
+
+
+
+remaining : 
+    python3 scripts/05_test_retrieval.py
+    python3 src/response_generator.py
+    python3 src/escalation.py
+    python3 src/agent.py
+    python3 -m streamlit run app.py
