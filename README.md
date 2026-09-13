@@ -71,5 +71,5 @@ remaining :
     python3 scripts/05_test_retrieval.py
     python3 src/response_generator.py
     python3 src/escalation.py
-    python3 src/agent.py
-    python3 -m streamlit run app.py
+    python3 -m src.agent
+    python3 -m streamlit run app

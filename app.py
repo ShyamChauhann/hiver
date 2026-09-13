@@ -7,13 +7,11 @@ sys.path.append(".")
 
 from src.agent import CustomerSupportAgent
 
-
 st.set_page_config(
     page_title="AI Customer Support Agent",
     page_icon="🤖",
     layout="wide"
 )
-
 
 @st.cache_resource
 def load_agent():
@@ -65,13 +63,10 @@ if st.button(
         st.warning(
             "Please enter a customer message."
         )
-
     else:
-
         with st.spinner(
             "Analyzing..."
         ):
-
             result = agent.process(
                 message
             )
