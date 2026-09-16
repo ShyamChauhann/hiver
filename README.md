@@ -68,7 +68,7 @@ The project uses:
 Open Terminal / Command Prompt and run:
 
 ```bash
-git clone https://github.com/ShyamChauhann/intelligent-fraud-detection-and-risk-scoring-system.git
+git clone https://github.com/ShyamChauhann/hiver.git
 ```
 
 Then enter the project folder:
