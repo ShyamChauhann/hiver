@@ -1,32 +1,5 @@
 import pandas as pd
 
-# def load_data(filepath):
-
-#     df = pd.read_csv(filepath)
-
-#     # Normalize inbound column
-#     df["inbound"] = (
-#         df["inbound"]
-#         .astype(str)
-#         .str.strip()
-#         .str.lower()
-#         .map({
-#             "true": True,
-#             "false": False
-#         })
-#     )
-
-#     # Normalize IDs
-#     df["tweet_id"] = df["tweet_id"].astype(str).str.strip()
-#     df["in_response_to_tweet_id"] = (
-#         df["in_response_to_tweet_id"]
-#         .astype(str)
-#         .str.strip()
-#     )
-
-#     return df
-# import pandas as pd
-
 
 def load_data(filepath):
 

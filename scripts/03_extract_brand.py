@@ -5,12 +5,12 @@ import os
 sys.path.append(".")
 from src.data_processing import load_data,extract_support_pairs
 
-INPUT_FILE = "/Users/shyamchauhan/Desktop/home/codes/hiver/dataset/twcs/customer_support.csv"
+INPUT_FILE = "hiver/dataset/twcs/customer_support.csv"
 
 # CHANGE THIS AFTER RUNNING 02_select_brand.py
 BRAND_ID = "sprintcare"
 
-OUTPUT_FILE = "/Users/shyamchauhan/Desktop/home/codes/hiver/dataset/processed/support_pairs.csv"
+OUTPUT_FILE = "hiver/dataset/processed/support_pairs.csv"
 
 print("Loading dataset...")
 

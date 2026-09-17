@@ -8,7 +8,7 @@ sys.path.append(".")
 from src.intent_classifier import train_classifier
 
 
-DATA_FILE = "/Users/shyamchauhan/Desktop/home/codes/hiver/dataset/processed/labeled_data.csv"
+DATA_FILE = "hiver/dataset/processed/labeled_data.csv"
 
 MODEL_FILE = "models/intent_classifier.pkl"
 

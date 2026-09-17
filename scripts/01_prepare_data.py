@@ -1,9 +1,9 @@
 import pandas as pd
 import os
 
-INPUT_FILE = "/Users/shyamchauhan/Desktop/home/codes/hiver/dataset/twcs/customer_support.csv"
+INPUT_FILE = "hiver/dataset/twcs/customer_support.csv"
 
-OUTPUT_DIR = "/Users/shyamchauhan/Desktop/home/codes/hiver/dataset/processed"
+OUTPUT_DIR = "hiver/dataset/processed"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
